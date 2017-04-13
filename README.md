@@ -32,5 +32,5 @@ python build_lexicon.py data/sample.txt data/test.txt
 
 ## Translate
 ```bash
-python translate.py data/test.txt lm/th.txt.arpa > test.output
+python translate.py data/test.txt lm/th.txt.arpa test.output
 ```
