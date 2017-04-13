@@ -7,7 +7,7 @@ lcode="th" # ISO 639-1 code of target language.
 max_corpus_size=1000000000 # the maximum size of the corpus. Feel free to adjust it according to your computing power.
 ############## END #####################
 
-echo "step 0. Make `data` directory and move there."
+echo "step 0. Make data directory and move there."
 mkdir data; cd data
 
 echo "step 1. Download the stored wikipedia file to your disk."

@@ -23,7 +23,6 @@ Train a 3-gram language model based on Thai Wikipedia:
 ```bash
 cd lm
 bash prepro.sh
-bash train_lm.sh
 ```
 
 ## Bilingual lexicon
@@ -33,5 +32,5 @@ python build_lexicon.py data/sample.txt data/test.txt
 
 ## Translate
 ```bash
-python translate.py data/test.txt > test.output
+python translate.py data/test.txt lm/th.txt.arpa > test.output
 ```
