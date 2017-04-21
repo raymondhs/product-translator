@@ -1,5 +1,6 @@
 # coding: utf-8
 #!/usr/bin/python2
+# modified from https://github.com/Kyubyong/wordvectors
 import argparse
 import codecs
 import lxml.etree as ET

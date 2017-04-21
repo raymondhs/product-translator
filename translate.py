@@ -57,7 +57,7 @@ class Translator(object):
                 start_end_idx.append((i,i))
                 is_prev_unk = False
             else: # keep as-is
-                if is_prev_unk:
+                if is_prev_unk: # merge consecutive unknown words as a single phrase
                     initial_translation[-1] += " "+words[i]
                     prev_start, prev_end = start_end_idx[-1]
                     new_start_end = (prev_start, prev_end+1)

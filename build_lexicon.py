@@ -1,7 +1,6 @@
 import codecs, nltk, sys, time
-from nltk.collocations import BigramCollocationFinder, TrigramCollocationFinder
-from nltk.metrics import BigramAssocMeasures, TrigramAssocMeasures
-from nltk.corpus import stopwords
+from nltk.collocations import BigramCollocationFinder
+from nltk.metrics import BigramAssocMeasures
 from googletrans import Translator
 
 entity_list = []
